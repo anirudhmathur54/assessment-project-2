@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>whether</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="Heading">Weather app</div>
+    <div class="container">
+        <div class="form">
+            <input type="text" id="city" placeholder="Enter city name">
+            <div class="button"><button onclick="getWeather()"><i class="material-icons">search</i></button></div>
+        </div>
+        <div class="weather" id="weather"></div>
+        <div class="temp">
+            <div class="temp-min" id="min"></div>
+            <div class="temp-avg" id="temp"></div>
+            <div class="temp-max" id="max"></div>
+        </div>
+    </div>
+    <img id="img">
+<script src="script.js"></script>
+</body>
+</html>

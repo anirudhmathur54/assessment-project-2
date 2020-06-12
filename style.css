@@ -1,0 +1,87 @@
+body{
+    background-color: chocolate;
+    color: white;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+img{
+    position: absolute;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+}
+
+.form input{
+    width: 200px;
+    height: 30px;
+    border-radius: 100px 0px 0px 100px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.form button{
+    width: 80px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    border-width: 0px;
+    border-radius: 0px 100px 100px 0px;
+}
+
+.button :hover{
+    background-color: rgb(96, 96, 236);
+}
+
+.button :active{
+    background-color: rgb(146, 146, 226);
+    color: black;
+}
+
+
+.label{
+    font-size: 20px;
+    text-decoration: dotted;
+}
+
+.weather{
+    padding: 20px;
+    font-size: 30px;
+}
+
+.temp{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+}
+
+.temp-min{
+color: wheat;
+font-size: 22px;
+margin-top: auto;
+}
+
+.temp-avg{
+    margin: 20px;
+}
+
+.temp-max{
+    color: wheat;
+    font-size: 22px;
+    margin-top: auto;
+}
+
+.err{
+    color: rgb(160, 11, 11);
+}
